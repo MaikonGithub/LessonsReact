@@ -1,0 +1,69 @@
+Relatório de Aprendizado e Progresso no Projeto 
+
+
+Dia - 1: Primeiro Commit
+
+
+
+   1 - Introdução ao Ambiente de Desenvolvimento
+
+Vite + React: Comecei o aprendizado com Vite, uma ferramenta moderna para bundling e desenvolvimento rápido de aplicações, e com React,
+uma biblioteca de JavaScript para construir interfaces de usuário.
+Criei um projeto básico usando Vite e React, e trabalhei com o componente funcional do React.
+
+   2 - Compreensão de Estruturas de Projeto
+
+Diretórios e Arquivos: No meu projeto, há um arquivo index.html (localizado na pasta public), que serve como ponto de entrada para a aplicação.
+O arquivo App.jsx contém a lógica e a interface principal da aplicação. Aprendi como o React usa JSX para renderizar conteúdo dinâmico na página.
+--------------------------------------------------------------------------------
+    package.json vs package-lock.json:
+
+    package.json contém as dependências e scripts do projeto.
+    package-lock.json registra as versões exatas das dependências,
+    garantindo que o projeto seja reproduzido de forma consistente em qualquer ambiente.
+
+--------------------------------------------------------------------------------    
+   3 - Trabalhando com Hooks e Estado em React
+--------------------------------------------------------------------------------
+    Uso do useState: O hook useState foi utilizado para gerenciar o estado local de um componente React. 
+    No exemplo, utilizei o useState para criar e atualizar uma variável count, que controla o valor exibido em um botão.
+
+    Entendimento de JSX: O JSX é uma sintaxe que permite escrever HTML no meio de código JavaScript.
+    Aprendi a usar elementos HTML, como <div>, <h1>, <button>, etc., dentro do componente React. A estrutura <></> representa um Fragmento do React, permitindo agrupar elementos sem adicionar um nó extra no DOM.
+--------------------------------------------------------------------------------
+
+    4 - Interatividade e Atualização de Estado
+
+Manipulação de Eventos: O evento de clique no botão foi utilizado para atualizar o valor de count 
+quando o usuário interage com a interface, utilizando a função setCount.
+
+    5 - Dependências e Configuração do Projeto
+
+Instalação de Dependências: Aprendi a instalar as dependências do projeto com os comandos npm install ou yarn install. 
+O arquivo package.json lista as dependências principais, que são instaladas na pasta node_modules.
+    
+    6 - Como Rodar o Projeto Localmente
+
+Iniciando o Servidor de Desenvolvimento: Para rodar o projeto localmente e visualizar a aplicação, 
+utilizei o comando npm run dev, que executa o script definido no package.json para rodar o Vite.
+    7 - Estrutura do Código e Arquivos Importantes
+--------------------------------------------------------------------------------
+    index.html: Arquivo de entrada da aplicação onde o React é injetado no DOM (por meio da tag <div id="root"></div>).
+    App.jsx: Contém a lógica e o JSX que define a interface do usuário, incluindo a manipulação do estado e a renderização dinâmica de componentes.
+    main.jsx: Arquivo que conecta o React ao HTML, renderizando o componente App no elemento <div id="root"></div> do index.html.
+--------------------------------------------------------------------------------
+
+
+Reflexões sobre o Processo de Desenvolvimento
+
+Primeiro Commit: O processo de fazer o primeiro commit envolve revisar a estrutura do código, garantir que o projeto esteja funcionando localmente e registrar as alterações feitas no Git. O primeiro commit deve refletir um ponto de partida estável, com o código organizado e as dependências instaladas corretamente.
+Próximos Passos
+
+Aprender mais sobre Componentes em React: Continuar explorando como os componentes funcionam, incluindo componentes de classe e componentes funcionais.
+
+Gerenciamento de Estado Global: Investigar o uso de ferramentas como Context API ou Redux para gerenciar o estado global em aplicações mais complexas.
+
+Melhorar a Estrutura do Projeto: Organizar os arquivos de forma mais modular à medida que o projeto cresce, criando componentes reutilizáveis e mais fáceis de manter.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,52 @@
+Learning and Progress Report in the Project 
+
+Day 1 : First Commit
+
+
+Introduction to the Development Environment
+
+Vite + React: I started learning with Vite, a modern tool for bundling and fast development, and React, a JavaScript library for building user interfaces. I created a basic project using Vite and React, and worked with React's functional component.
+Understanding Project Structure
+
+Directories and Files: In my project, there is an index.html file (located in the public folder), which serves as the entry point for the application. The App.jsx file contains the logic and main interface of the application. I learned how React uses JSX to render dynamic content on the page.
+
+package.json vs package-lock.json:
+
+package.json contains the dependencies and scripts of the project.
+package-lock.json records the exact versions of each installed dependency, ensuring the project is reproduced consistently across environments.
+Working with Hooks and State in React
+
+Using useState: The useState hook was used to manage the local state of a React component. In the example, I used useState to create and update a count variable, which controls the value displayed on a button.
+
+Understanding JSX: JSX is a syntax that allows writing HTML within JavaScript code. I learned how to use HTML elements like <div>, <h1>, <button>, etc., within my React component. The <></> structure represents a React Fragment, allowing elements to be grouped without adding an extra node to the DOM.
+
+Interactivity and State Update
+
+Event Handling: The button click event was used to update the count value when the user interacts with the interface, using the setCount function.
+Dependencies and Project Setup
+
+Installing Dependencies: I learned to install the project's dependencies with the npm install or yarn install commands. The package.json file lists the main dependencies, which are installed in the node_modules folder.
+How to Run the Project Locally
+
+Starting the Development Server: To run the project locally and view the application, I used the npm run dev command, which runs the script defined in package.json to start Vite.
+Code Structure and Important Files
+
+index.html: The entry file where React is injected into the DOM (via the <div id="root"></div> tag).
+
+App.jsx: Contains the logic and JSX that defines the user interface, including state handling and dynamic rendering of components.
+
+main.jsx: The file that connects React to the HTML, rendering the App component into the <div id="root"></div> element in index.html.
+
+Reflections on the Development Process
+
+First Commit: The process of making the first commit involves reviewing the code structure, ensuring the project works locally, and recording the changes made in Git. The first commit should reflect a stable starting point, with organized code and properly installed dependencies.
+Next Steps
+
+Learn More About Components in React: Continue exploring how components work, including class components and functional components.
+
+Global State Management: Investigate using tools like Context API or Redux for managing global state in more complex applications.
+
+Improve Project Structure: Organize the files in a more modular way as the project grows, creating reusable and maintainable components.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
