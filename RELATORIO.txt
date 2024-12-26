@@ -46,6 +46,7 @@ O arquivo package.json lista as dependências principais, que são instaladas na
 
 Iniciando o Servidor de Desenvolvimento: Para rodar o projeto localmente e visualizar a aplicação, 
 utilizei o comando npm run dev, que executa o script definido no package.json para rodar o Vite.
+
     7 - Estrutura do Código e Arquivos Importantes
 --------------------------------------------------------------------------------
     index.html: Arquivo de entrada da aplicação onde o React é injetado no DOM (por meio da tag <div id="root"></div>).
